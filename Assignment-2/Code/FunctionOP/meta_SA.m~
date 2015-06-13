@@ -1,0 +1,2 @@
+T_init = 1.0;
+alphas = linspace(0.05, 0.95;
