@@ -59,7 +59,8 @@ while (z < iterations)
             % Cooling according to a cooling schedule
     %         T = alpha*T;
             t = t+1;
-            T = cooling_schedule1(T_init, alpha, t);
+%             T = cooling_schedule1(T_init, alpha, t);
+            T = cooling_schedule2(T_init, alpha, t);
             totaleval = totaleval + i;
 
             % reset the counters
